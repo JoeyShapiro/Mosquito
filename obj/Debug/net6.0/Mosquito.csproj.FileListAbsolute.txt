@@ -1,0 +1,15 @@
+/Users/oniichan/Documents/Code/Mosquito/bin/Debug/net6.0/Mosquito
+/Users/oniichan/Documents/Code/Mosquito/bin/Debug/net6.0/Mosquito.deps.json
+/Users/oniichan/Documents/Code/Mosquito/bin/Debug/net6.0/Mosquito.runtimeconfig.json
+/Users/oniichan/Documents/Code/Mosquito/bin/Debug/net6.0/Mosquito.dll
+/Users/oniichan/Documents/Code/Mosquito/bin/Debug/net6.0/ref/Mosquito.dll
+/Users/oniichan/Documents/Code/Mosquito/bin/Debug/net6.0/Mosquito.pdb
+/Users/oniichan/Documents/Code/Mosquito/obj/Debug/net6.0/Mosquito.csproj.AssemblyReference.cache
+/Users/oniichan/Documents/Code/Mosquito/obj/Debug/net6.0/Mosquito.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oniichan/Documents/Code/Mosquito/obj/Debug/net6.0/Mosquito.AssemblyInfoInputs.cache
+/Users/oniichan/Documents/Code/Mosquito/obj/Debug/net6.0/Mosquito.AssemblyInfo.cs
+/Users/oniichan/Documents/Code/Mosquito/obj/Debug/net6.0/Mosquito.csproj.CoreCompileInputs.cache
+/Users/oniichan/Documents/Code/Mosquito/obj/Debug/net6.0/Mosquito.dll
+/Users/oniichan/Documents/Code/Mosquito/obj/Debug/net6.0/ref/Mosquito.dll
+/Users/oniichan/Documents/Code/Mosquito/obj/Debug/net6.0/Mosquito.pdb
+/Users/oniichan/Documents/Code/Mosquito/obj/Debug/net6.0/Mosquito.genruntimeconfig.cache
