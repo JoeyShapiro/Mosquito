@@ -18,8 +18,12 @@ foreach (string line in System.IO.File.ReadLines(HARVEST)) { // all gotten files
 }
 
 System.Console.WriteLine($"Currently have {counter} files"); // ...
+IEnumerable<string> files = Directory.EnumerateFiles(PATH, "*.exe", SearchOption.AllDirectories);
+int total = files.Count();
+counter = 0; // reset, for cheapness
 
-foreach (string file in Directory.EnumerateFiles(PATH, "*.exe", SearchOption.AllDirectories)) { // (recursively) go through each folder for exes
+System.Console.Write("Progress: ");
+foreach (string file in files) { // (recursively) go through each folder for exes
     string fileName = System.IO.Path.GetFileName(file); // current files name
     string destFile = System.IO.Path.Combine(TARGET_PATH, fileName); // where to put it
     long length = new System.IO.FileInfo(file).Length; // the length of the file
@@ -32,6 +36,10 @@ foreach (string file in Directory.EnumerateFiles(PATH, "*.exe", SearchOption.All
             yield++;
         }
     }
+
+    counter++;
+    if ((counter/total)%0.10 == 0) // :P so clever
+        System.Console.Write("#"); // progress bar
 }
 
-System.Console.WriteLine($"Found {found} files and harvested {yield} files"); // show results
+System.Console.WriteLine($"\nFound {found} files and harvested {yield} files"); // show results
