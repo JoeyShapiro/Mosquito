@@ -38,7 +38,7 @@ foreach (string file in files) { // (recursively) go through each folder for exe
     }
 
     counter++;
-    if ((counter/total)%0.10 == 0) // :P so clever
+    if (((counter/total)*100)%10 == 0) // :P so clever
         System.Console.Write("#"); // progress bar
 }
 
